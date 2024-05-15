@@ -1,3 +1,17 @@
+#' @title Add seven
+#' 
+#' @description Adds seven to any number or vector given to the function.
+#' 
+#' @param x numeric. A single number or a vector with data.
+#' @return A single number or a vector with 7 added to each of its elements.
+#' 
+#' @examples 
+#' # add 7 to a vector of numbers
+#' x <- c(3, 4, 5, 6, 7)
+#' addSeven(x)
+#' # add 7 to a single number
+#' addSeven(3)
+#' @references Sarafoglou, A. (2024). How to add 7 to a number. Science, 10, 206-208.
 #' @export
 addSeven <- function(x) {x + 7}
 
