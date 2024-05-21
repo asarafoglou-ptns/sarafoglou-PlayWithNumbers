@@ -10,7 +10,7 @@ addSeven(x)
 \item{x}{numeric. A single number or a vector with data.}
 }
 \value{
-A data.frame containing the following columns:
+A data.frame containing the following elements:
 \describe{
 \item{old_numbers}{numeric. A vector of numbers specified by the user.}
 \item{new_numbers}{numeric. A vector of numbers specified by the user with 7 added to each of its elements.}
