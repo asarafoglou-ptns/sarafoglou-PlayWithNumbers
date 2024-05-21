@@ -10,7 +10,11 @@ addSeven(x)
 \item{x}{numeric. A single number or a vector with data.}
 }
 \value{
-A single number or a vector with 7 added to each of its elements.
+A data.frame containing the following columns:
+\describe{
+\item{old_numbers}{numeric. A vector of numbers specified by the user.}
+\item{new_numbers}{numeric. A vector of numbers specified by the user with 7 added to each of its elements.}
+}
 }
 \description{
 Adds seven to any number or vector given to the function.
@@ -23,5 +27,8 @@ addSeven(x)
 addSeven(3)
 }
 \references{
-Sarafoglou, A. (2024). How to add 7 to a number. Science, 10, 206-208.
+\itemize{
+\item Sarafoglou, A. (2024). How to add 7 to a number. Science, 10, 206-208.
+\item Sarafoglou, A. (2023). What is addition, when is it useful? Science, 2, 100-168.
+}
 }
