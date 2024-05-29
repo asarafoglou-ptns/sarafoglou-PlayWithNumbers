@@ -32,7 +32,11 @@ addThree <- function(x) {x + 3}
 squareNumber <- function(x){x^2}
 
 #' @export
-visualizeTransformations <- function(vector_with_numbers){
+visualizeTransformations <- function(vector_with_numbers = NULL){
+  
+  if(is.null(vector_with_numbers)){
+    vector_with_numbers = PlayWithNumbers::numbers$real_numbers
+  }
   
   df <- data.frame(orig        = rep(vector_with_numbers, 3), 
                    transformed = c(addSeven(vector_with_numbers)$new_numbers,
